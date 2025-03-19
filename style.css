@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Black background for h1 */
+h1 {
+    text-align: center;
+    color: white; /* White text for contrast */
+    background-color: black; /* Black background */
+    padding: 15px; /* Add padding for spacing */
+    margin: -20px -20px 20px -20px; /* Remove default body margin */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Ramen Menu Section */
+#ramen-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center; /* Center the images horizontally */
+}
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid #ddd;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ramen Detail Section */
+#ramen-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ramen-detail img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+}
+
+#ramen-detail h2 {
+    margin: 10px 0;
+    color: #007bff; /* Pale blue color for the title */
+    font-size: 24px;
+}
+
+#ramen-detail h3 {
+    margin: 10px 0;
+    color: #555;
+    font-size: 18px;
+}
+
+#ramen-detail p {
+    margin: 5px 0;
+    color: #777;
+    font-size: 16px;
+}
+
+/* New Ramen Form */
+#new-ramen {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#new-ramen h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#new-ramen label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+#new-ramen input,
+#new-ramen textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#new-ramen textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#new-ramen button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#new-ramen button:hover {
+    background-color: #ff4a3d;
+}
